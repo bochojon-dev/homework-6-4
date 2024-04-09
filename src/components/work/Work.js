@@ -41,8 +41,8 @@ const Work = () => {
             специальный подход к каждому виду товаров.
           </p>
           <div className="work_cards">
-            {works?.map((el, i) => (
-              <div key={i} className="work_card">
+            {works?.map((el) => (
+              <div key={el.id} className="work_card">
                 <img src={el.image} alt="card" />
                 <div className="work_texts">
                   <h3>{el.title}</h3>

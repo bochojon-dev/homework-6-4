@@ -1,0 +1,51 @@
+.partner_contents h2 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  color: #363738;
+  padding-bottom: 72px;
+}
+.partner_cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  column-gap: 30px;
+  row-gap: 24px;
+}
+.partner_card {
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 6px #000;
+  border-radius: 10px;
+}
+.partner_card h3 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #363738;
+}
+.partner_card p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #6b6b6c;
+  padding: 16px 0 0 0;
+}
+.partner_card .human {
+  padding: 0 40px 0 32px !important;
+}
+.partner_contents .truck {
+  display: flex;
+  justify-content: center;
+  padding: 150px 0 165px;
+  width: 100%;
+}
+.partner_contents .truck img {
+  width: 100%;
+}
+.links {
+  padding-top: 24px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
