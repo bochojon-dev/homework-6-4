@@ -1,0 +1,33 @@
+.work_contents h2 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+}
+.work_contents p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #6b6b6c;
+  padding: 12px 0 32px;
+}
+.work_paragraph {
+  width: 500px;
+}
+.work_cards {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.work_card {
+  width: 393px !important;
+  box-shadow: 0 0 6px #000;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.work_car img {
+  overflow: hidden;
+}
+.work_texts {
+  padding: 24px 32px;
+}

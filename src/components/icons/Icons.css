@@ -1,0 +1,39 @@
+.icon_components {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 56px;
+  box-shadow: 0 0 6px 0 #000;
+  border-radius: 16px;
+}
+.icons {
+  margin: 60px 0;
+}
+.icon {
+  padding: 0 64px;
+}
+.icon h3 {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  padding: 24px 0 16px;
+  width: 240px;
+}
+.icon p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  width: 225px;
+  color: #6b6b6c;
+}
+/* icon:first-child {
+  border: 1px solid #00000040 !important;
+  border-bottom: 0 !important;
+  border-top: 0 !important;
+} */
+.icon:first-child {
+  border-right: 1px solid #00000040;
+}
+.icon:last-child {
+  border-left: 1px solid #00000040;
+}
